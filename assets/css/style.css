@@ -20,7 +20,8 @@ a {
 }
 
 /* Hover and focus styles aid in navigation for links */
-a:hover, a:focus {
+a:hover, a:focus-visible {
+    transition: 520ms;
     color: #0000FF;
 }
 
@@ -36,6 +37,7 @@ abbr {
 abbr:hover {
     color: #00FFFF;
     background-color: #000000;
+    transition: 400ms;
 }
 
 
