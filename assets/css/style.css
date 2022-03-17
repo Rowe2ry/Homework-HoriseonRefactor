@@ -1,6 +1,6 @@
-/* ||||||||||||||||||||||||||||||||||||||||
-||||||||||STANDARDIZED STYLING\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ==========================================================================
+   STANDARD PAGE STYLING
+   ========================================================================== */
 
 /* universal selector to set baseline(default) styles */
 * {
@@ -25,7 +25,7 @@ a:hover, a:focus-visible {
     color: #0000FF;
 }
 
-/* appreviations can be defined when hovered over
+/* abbreviations can be defined when hovered over
 dfault abbreviation styles do not meet brand guide
 criteria and are omitted. The hover behavior has been changed
 to encourage a user to hover over the element long enough
@@ -41,9 +41,9 @@ abbr:hover {
 }
 
 
-/* ||||||||||||||||||||||||||||||||||||||||
-||||||||||HEADER STYLING\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ==========================================================================
+   HEADER PAGE STYLING
+   ========================================================================== */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -78,9 +78,9 @@ abbr:hover {
     margin-left: 25px;
 }
 
-/* ||||||||||||||||||||||||||||||||||||||||
-||||||||||HERO IMAGE STYLING\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ==========================================================================
+   HERO IMAGE ELEMENT STYLING
+   ========================================================================== */
 /* this is the primary stock photo container */
 .hero {
     height: 800px;
@@ -91,9 +91,9 @@ abbr:hover {
     background-position: center;
 }
 
-/* ||||||||||||||||||||||||||||||||||||||||
-||||||||||PRODUCTS AND SERVICES STYLING\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ==========================================================================
+   PRODUCTS AND SERVICES STYLING
+   ========================================================================== */
 
 .float-left {
     float: left;
@@ -133,9 +133,9 @@ p {
     font-size: 16px;
 }
 
-/* ||||||||||||||||||||||||||||||||||||||||
-||||||||||BENEFITS TO USER STYLING\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ==========================================================================
+   BENEFITS TO USER STYLING
+   ========================================================================== */
 
 .benefits {
     margin-right: 20px;
@@ -164,9 +164,9 @@ p {
     max-width: 150px;
 }
 
-/* ||||||||||||||||||||||||||||||||||||||||
-||||||||||FOOTER STYLING\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ==========================================================================
+   FOOTER PAGE STYLING
+   ========================================================================== */
 .footer {
     padding: 30px;
     clear: both;
