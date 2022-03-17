@@ -37,4 +37,12 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
     ```
     <main>
     ```
-10. 
+10. Changed the generic class name of "content" in the main container to a more descriptive "products-and-services" class name.
+
+11. Reworked every (3) child container under "main" to be a \<section> type instead of a generic \<div>.
+
+12. Added an id attribute to the first child of the main container to repair the broken hyperlink in the navbar.
+
+13. Took note of the 3 children in main having unique classes with identical styling and unified them to one class type "services".
+
+14. Changed the container type of the next large parent container to \<Article> to add semantic value to the container.
