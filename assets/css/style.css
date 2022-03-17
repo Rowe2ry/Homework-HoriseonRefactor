@@ -1,0 +1,177 @@
+/* ||||||||||||||||||||||||||||||||||||||||
+||||||||||STANDARDIZED STYLING\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* universal selector to set baseline(default) styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background color for entire page is a nice light gray */
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hover and focus styles aid in navigation for links */
+a:hover, a:focus {
+    color: #0000FF;
+}
+
+/* appreviations can be defined when hovered over
+dfault abbreviation styles do not meet brand guide
+criteria and are omitted. The hover behavior has been changed
+to encourage a user to hover over the element long enough
+for the definition to appear */
+abbr {
+    text-decoration: none;
+}
+
+abbr:hover {
+    color: #00FFFF;
+    background-color: #000000;
+}
+
+
+/* ||||||||||||||||||||||||||||||||||||||||
+||||||||||HEADER STYLING\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* the span within the company name has a contrasting color to show the world play used in the brand guide */
+.seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||
+||||||||||HERO IMAGE STYLING\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* this is the primary stock photo container */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||
+||||||||||PRODUCTS AND SERVICES STYLING\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.products-and-services {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services img {
+    max-height: 200px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||
+||||||||||BENEFITS TO USER STYLING\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.single-benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.single-benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.single-benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||
+||||||||||FOOTER STYLING\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
