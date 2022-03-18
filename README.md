@@ -5,6 +5,11 @@
 Client requested changes to the website for adherence to modern accessability standards.
 Changes have been made to both the HTML file, and the stylesheet to meet these standards.
 
+## View Results
+
+[Live Page on Github](https://rowe2ry.github.io/Homework-HoriseonRefactor/)
+[Github repository](https://github.com/Rowe2ry/Homework-HoriseonRefactor)
+
 ### Changes to HTML
 
 1. The title in the document's head now describes the company.
