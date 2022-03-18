@@ -65,14 +65,32 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
 
 ### Changes to CSS
 
-1. Added a table of contents to the top of the stylesheet.
+1. Added a table of contents to the top of the stylesheet and reflowed the stylesheet to follow the logical structure outlined in this table of contents.
 
 2. Added block commenting to separate each section of the style sheet. The sections of this style sheet are as follows.
-    * **Standard Page Styling**  
+    * **Section 1 —— Standard Page Styling**  
     element selectors that are used throughout the entire page
 
-    * **Header Styling**  
+    * **Section 2 —— Header Styling**  
     all of the style selectors and key-value pairs used specifically in the page's header.
 
-    * **Hero Image Styling**  
-    This is the style applied to the key photo on the page. It is front and center on the main stage of the user-experience to se the tone for the landing page, so I felt it necessary to give it its own section in the stylesheet. 
+    * **Section 3 —— Hero Image Styling**  
+    the style applied to the key photo on the page. It is front and center on the main stage of the user-experience to set the tone for the landing page, so I felt it necessary to give it its own section in the stylesheet. 
+
+    * **Section 4 —— Products and Services Styling**  
+    the styling attributes for the main "meat and potatoes" of the site highlighting Horiseon's goods and services they offer to their end usrs.
+
+    * **Section 5 —— Benefits to User Styling**  
+    the styling elements for the aside section of the page which tells Horiseon's users what they stand to gain by using Horiseon's services.
+
+    * **Section 6 —— Footer Styling**  
+    the styling rules applied to the footer of the page.
+3. Reduced reduntant code by observing 2 instances where 3 classes each had completely *identical* style rules. Consolodated the 3 classes into one in both instances to reduce 6 blocks of code in the style sheet into 2.
+
+4. Added "hover" and "focus-visible" state styles to the anchors containing hyperlinks so that users would have some feedback when interacting with the site that they are hovering over, (or have focus of) hyperlinks.
+
+5. Added styling to the \<abbr> tags that were newly added to the main HTML code to avoid the default browser styling of these elements from deviating from the company brand guide aesthetic. Changed the "hover" state styling so that users would be encouraged to stop and inspect elements to discover the abbreviation definitions.
+
+6. Updated all div references in the stylesheet to the appropriately updated container names that have semantic value.
+
+7. Truncated reduntant parent-child relationship selectors that end up targeting a single class anyway.
