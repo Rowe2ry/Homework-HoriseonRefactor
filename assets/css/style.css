@@ -1,3 +1,14 @@
+/**
+ * TABLE OF CONTENTS
+ * 
+ * Section 1 —— Standard PAge Styling
+ * Section 2 —— Header Styling
+ * Section 3 —— Hero Element Styling
+ * Section 4 —— Products and Services Styling
+ * Section 5 —— Benefits to User Styling
+ * Section 6 —— Footer Styling
+ */
+
 /* ==========================================================================
    STANDARD PAGE STYLING
    ========================================================================== */
@@ -20,7 +31,8 @@ a {
 }
 
 /* Hover and focus styles aid in navigation for links */
-a:hover, a:focus-visible {
+a:hover, 
+a:focus-visible {
     transition: 520ms;
     color: #0000FF;
 }
@@ -42,7 +54,7 @@ abbr:hover {
 
 
 /* ==========================================================================
-   HEADER PAGE STYLING
+   HEADER STYLING
    ========================================================================== */
 .header {
     padding: 20px;
@@ -81,7 +93,8 @@ abbr:hover {
 /* ==========================================================================
    HERO IMAGE ELEMENT STYLING
    ========================================================================== */
-/* this is the primary stock photo container */
+
+   /* this is the primary stock photo container */
 .hero {
     height: 800px;
     width: 100%;
@@ -165,7 +178,7 @@ p {
 }
 
 /* ==========================================================================
-   FOOTER PAGE STYLING
+   FOOTER STYLING
    ========================================================================== */
 .footer {
     padding: 30px;

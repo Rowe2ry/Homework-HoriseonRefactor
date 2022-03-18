@@ -55,4 +55,24 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
 
 18. Each "single-benefit" section contains an icon, these icons have been given alt attributes for better accessibility with screen readers.
 
-19. 
+19. Added a comment to the code for future devwelopers that introduces the footer of the page and what it contains.
+
+20. Changed the last container in the document flow from a generic \<div> container to a \<footer> tag for the semantic value that this is a footer. 
+
+21. Added an \<abbr> tag as well as \<span> tag to the heart emoji to tell sighted users who hover over the heart that this emoji is representign the word "love" and attributes given to the \<span> tag will tell non-sighted users who impliment screen readers that an icon here is serving the role of an image that represents "love".
+
+22. Added a valid "YYYY" format \<time> tag to the copywrite information to give semantic valeu to an otherwise non-contextual "2-0-1-9" string in the footer of the page.
+
+### Changes to CSS
+
+1. Added a table of contents to the top of the stylesheet.
+
+2. Added block commenting to separate each section of the style sheet. The sections of this style sheet are as follows.
+    * **Standard Page Styling**  
+    element selectors that are used throughout the entire page
+
+    * **Header Styling**  
+    all of the style selectors and key-value pairs used specifically in the page's header.
+
+    * **Hero Image Styling**  
+    This is the style applied to the key photo on the page. It is front and center on the main stage of the user-experience to se the tone for the landing page, so I felt it necessary to give it its own section in the stylesheet. 
