@@ -85,11 +85,14 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
 
     * **Section 6 —— Footer Styling**  
     the styling rules applied to the footer of the page.
-3. Reduced reduntant code by observing 2 instances where 3 classes each had completely *identical* style rules. Consolodated the 3 classes into one in both instances to reduce 6 blocks of code in the style sheet into 2.
+3. Reduced reduntant code by observing 2 instances where 3 classes each had completely *identical* style rules. Consolodated the 3 classes into one in both instances to reduce 6 blocks of code in the style sheet into 2.  
+![Screenshot showing the hover state styling](./assets/readme-images/abbr-hover-1.png)
 
-4. Added "hover" and "focus-visible" state styles to the anchors containing hyperlinks so that users would have some feedback when interacting with the site that they are hovering over, (or have focus of) hyperlinks.
+4. Added "hover" and "focus-visible" state styles to the anchors containing hyperlinks so that users would have some feedback when interacting with the site that they are hovering over, (or have focus of) hyperlinks.  
+![Screenshot showing the hover state styling](./assets/readme-images/screenshot-hover.png)
 
-5. Added styling to the \<abbr> tags that were newly added to the main HTML code to avoid the default browser styling of these elements from deviating from the company brand guide aesthetic. Changed the "hover" state styling so that users would be encouraged to stop and inspect elements to discover the abbreviation definitions.
+5. Added styling to the \<abbr> tags that were newly added to the main HTML code to avoid the default browser styling of these elements from deviating from the company brand guide aesthetic. Changed the "hover" state styling so that users would be encouraged to stop and inspect elements to discover the abbreviation definitions.  
+![Screenshot showing the hover state styling](./assets/readme-images/abbr-hover-2.png)
 
 6. Updated all div references in the stylesheet to the appropriately updated container names that have semantic value.
 
