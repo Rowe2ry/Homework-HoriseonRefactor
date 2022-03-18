@@ -20,14 +20,14 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
     <header class="header>
     ```
 
-4. The navigation bar within the header is no longer a generic div selement and is now defined semantically as a nav element by:
+4. The navigation bar within the header is no longer a generic div element and is now defined semantically as a nav element by:
     ```
     <nav>
     ```
     
 5. A description of the purpose of the nav bas as used on this landing page is outlined as a comment
 
-6. A note has been added to let future developers know that the image can be updated in ther stylesheet since the image is not directly linked in the HTML file.
+6. A note has been added to let future developers know that the image can be updated in the stylesheet since the image is not directly linked in the HTML file.
 
 7. An "alt" attribute has been added to the section container that places the background image on the page to serve as the alternate text for the image contained within.
 
@@ -55,13 +55,13 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
 
 18. Each "single-benefit" section contains an icon, these icons have been given alt attributes for better accessibility with screen readers.
 
-19. Added a comment to the code for future devwelopers that introduces the footer of the page and what it contains.
+19. Added a comment to the code for future developers that introduces the footer of the page and what it contains.
 
 20. Changed the last container in the document flow from a generic \<div> container to a \<footer> tag for the semantic value that this is a footer. 
 
-21. Added an \<abbr> tag as well as \<span> tag to the heart emoji to tell sighted users who hover over the heart that this emoji is representign the word "love" and attributes given to the \<span> tag will tell non-sighted users who impliment screen readers that an icon here is serving the role of an image that represents "love".
+21. Added an \<abbr> tag as well as \<span> tag to the heart emoji to tell sighted users who hover over the heart that this emoji is representing the word "love" and attributes given to the \<span> tag will tell non-sighted users who implement screen readers that an icon here is serving the role of an image that represents "love".
 
-22. Added a valid "YYYY" format \<time> tag to the copywrite information to give semantic valeu to an otherwise non-contextual "2-0-1-9" string in the footer of the page.
+22. Added a valid "YYYY" format \<time> tag to the copywrite information to give semantic value to an otherwise non-contextual "2-0-1-9" string in the footer of the page.
 
 ### Changes to CSS
 
@@ -78,7 +78,7 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
     the style applied to the key photo on the page. It is front and center on the main stage of the user-experience to set the tone for the landing page, so I felt it necessary to give it its own section in the stylesheet. 
 
     * **Section 4 —— Products and Services Styling**  
-    the styling attributes for the main "meat and potatoes" of the site highlighting Horiseon's goods and services they offer to their end usrs.
+    the styling attributes for the main "meat and potatoes" of the site highlighting Horiseon's goods and services they offer to their end users.
 
     * **Section 5 —— Benefits to User Styling**  
     the styling elements for the aside section of the page which tells Horiseon's users what they stand to gain by using Horiseon's services.
@@ -96,4 +96,4 @@ Changes have been made to both the HTML file, and the stylesheet to meet these s
 
 6. Updated all div references in the stylesheet to the appropriately updated container names that have semantic value.
 
-7. Truncated reduntant parent-child relationship selectors that end up targeting a single class anyway.
+7. Truncated redundant parent-child relationship selectors that end up targeting a single class anyway.
